@@ -1,0 +1,26 @@
+.wrapper.bg-1 {
+    background-color: var(--bg-color);
+}
+
+.adventurous {
+    padding: 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.adventurous_heading {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+}
+.Bdventurous_btn {
+}
+.primary {
+}
+
+@media only screen and (max-width: 978px) {
+    .adventurous {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}

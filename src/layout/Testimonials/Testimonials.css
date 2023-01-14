@@ -1,0 +1,107 @@
+.testimonials {
+    padding-bottom: 30px;
+}
+.testimonials_top {
+    text-align: center;
+}
+.testimonials_top-heading {
+    font-size: 46px;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.testimonials_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials_btn .slide_btn {
+    margin: 0 20px;
+}
+
+.formtestimonials {
+    width: 1000px;
+    max-width: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    padding-bottom: 112px;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+}
+
+.formtestimonials::-webkit-scrollbar {
+    display: none;
+}
+.testimonials_bottom {
+    display: flex;
+    width: max-content;
+}
+
+/* =====================item==================== */
+
+.testimonials_item {
+    width: 220px;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 15px;
+    scroll-snap-align: start;
+    border: 1px solid #ccc;
+}
+.testimonials_item-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.testimonials_item-name {
+    font-size: 18px;
+    color: var(--bg-color);
+    margin-bottom: 0;
+}
+.testimonials_item-sub {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-bottom: 22px;
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 5);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.testimonials_item-sub.line1 {
+    --line-clamp:1;
+    
+}
+.testimonials_item-icon {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.wrapper.tes {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 978px) {
+    .wrapper.tes {
+        padding: 0 40px;
+    }
+
+    .testimonials_item {
+        width: calc(33.33vw - 30px - 20px);
+    }
+    .discover_left {
+        width: 100%;
+        order: 1;
+    }
+    .discover_right {
+        width: 80%;
+        margin-bottom: 200px;
+        z-index: 1;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .testimonials_item {
+        width: calc(100vw - 95px);
+    }
+}

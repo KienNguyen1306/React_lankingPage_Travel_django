@@ -1,0 +1,46 @@
+.memories {
+    padding-bottom: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 114px;
+}
+
+.memories_left {
+    width: 50%;
+}
+
+.memories_left-heading {
+    font-size: 46px;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.memories_left-sub {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 1.6rem;
+}
+
+.memories_btn {
+    margin: 24px 0;
+}
+
+.memories_right {
+    width: 50%;
+}
+
+@media only screen and (max-width: 978px) {
+    .memories {
+        flex-direction: column;
+    }
+    .memories_left {
+        width: 90%;
+        order: 1;
+    }
+    .memories_right {
+        width: 80%;
+    }
+}

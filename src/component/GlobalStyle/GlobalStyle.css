@@ -1,0 +1,71 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #343661;
+    --text-color: #555555;
+    --bg-color: #f17945;
+    --while-primary: #ffffff;
+    --while-color: #ffffb3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter';
+}
+body {
+    line-height: 1.6;
+}
+
+.wrapper {
+    width: 100%;
+}
+.wrapper.bg {
+    background: #efefef;
+}
+
+.wrapper.bg-2 {
+    background-color: #f7f7f7;
+}
+.container {
+    max-width: 1135px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 978px) {
+    .container {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 20px;
+    }
+}

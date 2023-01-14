@@ -1,0 +1,22 @@
+/* .heroconten.blog {
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.post_content.blog {
+    padding: 114px 0 20px 0;
+}
+
+.blog_load_more {
+    padding: 10px 12px;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    font-size: 1.7rem;
+}

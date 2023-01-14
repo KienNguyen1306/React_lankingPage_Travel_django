@@ -1,0 +1,50 @@
+.btn {
+    padding: 6px 20px;
+    border-radius: 999999px;
+    color: var(--while-primary);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.4rem;
+    transition: 0.3s;
+}
+
+.btn.primary {
+    background: var(--bg-color);
+    border: 2px solid var(--bg-color);
+    color: var(--while-color);
+}
+.primary:hover {
+    background: transparent;
+    border: 2px solid var(--while-primary);
+}
+
+.primary_1 {
+    background: var(--bg-color);
+    border: 2px solid #fff;
+    color: var(--while-color);
+    cursor: pointer;
+}
+
+.primary_1:hover {
+    background: #fff;
+    border: 2px solid #fff;
+    color: var(--bg-color);
+}
+
+.text {
+    color: var(--bg-color);
+    padding: 0;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: dashed;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.text_icon {
+    color: var(--bg-color);
+    margin-left: 5px;
+}

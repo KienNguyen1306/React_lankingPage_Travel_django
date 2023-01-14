@@ -1,0 +1,14 @@
+.heroconten.contact {
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.heroconten.contact .hero_btn {
+    display: none;
+}
